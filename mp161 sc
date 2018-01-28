@@ -1,0 +1,444 @@
+Exposure Lamp Error
+101 B The scanner has scanned the white
+plate, but cannot detect the white
+level.
+ Defective exposure lamp
+ Defective exposure lamp
+stabilizer
+ Defective exposure lamp
+connector
+ Unclean scanner mirror
+ Scanner mirror out of position
+ Defective SBU board
+ Defective SBU connector
+ Lens block out of position
+ Incorrect position or width of
+white plate scanning (
+SP4-015)
+Scanner home position error 1
+120 B The scanner home position sensor
+does not detect the scanner leaving
+the home position.
+ Defective scanner home
+position sensor
+ Defective scanner drive motor
+ Defective scanner home
+position sensor connector
+ Defective scanner drive motor
+connector
+ Defective BICU board 
+SC Tables (Basic: D067/D072)
+SM Appendix 3-37 D067/D068/D069/D072
+Appendix:
+Service Call
+Conditions
+No.
+Definition Symptom Possible Cause
+Scanner home position error 2
+121 B The scanner home position sensor
+does not detect the scanner coming
+back to the home position.
+ Defective scanner home
+position sensor
+ Defective scanner drive motor
+ Defective scanner home
+position sensor connector
+ Defective scanner drive motor
+connector
+ Defective BICU board
+SBU black level correction error
+141 B
+ The automatic SBU adjustment
+has failed to correct the black
+level three times at the
+pre-offset adjustment.
+ The automatic SBU adjustment
+has failed to correct the black
+level ten times at the PGA
+adjustment.
+ The automatic SBU adjustment
+has failed to correct the black
+level ten times at the offset
+adjustment.
+ Defective SBU board
+SBU white/black level correction error
+142 B The automatic SBU adjustment has
+failed to correct the white level ten
+times at the PGA adjustment.
+ Defective exposure lamp
+ Unclean white plate
+ Incorrect position or width of
+white plate scanning (
+SP4-015)
+ Defective SBU board 
+SC Tables (Basic: D067/D072)
+D067/D068/D069/D072 3-38 SM Appendix
+No.
+Definition Symptom Possible Cause
+Communication Error between BICU and SBU
+144 B The BICU cannot correctly establish
+communication with the SBU.
+ Loose connection of the flat
+cable between the BICU and the
+SBU
+ Defective flat cable between the
+BICU and the SBU
+ Defective BICU
+ Defective SBU
+Automatic SBU adjustment error
+145 D
+The white levels of the white plate
+and the white paper are
+extraordinarily different during the
+Scan Auto Adjustment (
+SP4-428-001).
+ Defective exposure lamp
+ Unclean white plate
+ Incorrect position or width of
+white plate scanning (
+SP4-015)
+ Defective BICU board
+ Defective SBU board
+Image transfer error
+193 B Scanned images are not transferred
+to the controller memory within one
+minute.
+ Defective BICU board
+ Defective controller board
+Memory address error
+198 B The BICU does not receive the
+memory address report from the
+controller within one minute.
+ Inconsistency between the
+BICU firmware and the
+controller firmware
+ Defective BICU
+ Defective controller 
+SC Tables (Basic: D067/D072)
+SM Appendix 3-39 D067/D068/D069/D072
+Appendix:
+Service Call
+Conditions
+No.
+Definition Symptom Possible Cause
+Charge roller current leak
+302 B The polling module detects a current
+leak of the charge roller.
+ Defective charge roller
+ Defective high voltage supply
+board
+ Loose connection of the PCU
+Polygonal mirror motor error
+320 B
+The polygon mirror motor does not
+reach the operating speed within 10
+seconds. Or, the polygon mirror
+motor remains out of the operating
+speed for 0.2 second after reaching
+the operating speed.
+ Defective polygon mirror motor
+ Loose connection between the
+polygonal mirror motor and the
+BICU
+ Defective cable between the
+BICU and the polygon mirror
+motor
+ Defective BICU
+No laser writing signal (F-GATE) error
+321 B
+The poling module does not detect
+the laser writing signal (F-GATE)
+asserting after the laser crosses 5
+mm from the start point on the drum
+surface.
+ Defective BICU
+ Loose connection on the fax
+controller or the printer controller
+ Defective fax controller or printer
+controller 
+SC Tables (Basic: D067/D072)
+D067/D068/D069/D072 3-40 SM Appendix
+No.
+Definition Symptom Possible Cause
+Laser synchronization error
+322 B The main scan synchronization
+detector does not detect the laser
+signal for 0.5 second.
+ Toner bottle not installed
+ Loose connection between the
+LD unit and the BICU
+ Defective cable between the
+BICU and LD unit
+ LD unit out of position
+ Defective LD unit
+ Defective BICU
+TD sensor error
+390 B
+The BICU detects the TD sensor
+outputting extraordinary voltage
+(less than 0.2 V or more than 4.0 V)
+10 times consecutively.
+ Defective TD sensor
+ Loose connection of the PCU
+Development bias leak
+391 B The polling module detects a current
+leak of the development bias.
+ Loose connection of the PCU
+ Defective high voltage supply
+board
+Developer initialization error
+392 B The ID sensor does not detect a
+correct pattern during developer
+initialization ( 2-214-001).
+ Defective ID sensor
+ Insufficient developer
+ Defective drum operation
+ Defective development roller
+operation
+ Loose connection of the PCU
+ Insufficient voltage for the
+charge roller 
+SC Tables (Basic: D067/D072)
+SM Appendix 3-41 D067/D068/D069/D072
+Appendix:
+Service Call
+Conditions
+No.
+Definition Symptom Possible Cause
+Transfer roller leak error (positive electrode)
+401 B The feedback voltage of the transfer
+roller is insufficient.
+ Defective high voltage supply
+board
+ Loose connection of the PCU
+ Incorrect installation of the
+transfer unit or the separation
+unit
+ Defective transfer roller
+Transfer roller leak error (negative electrode)
+402 B The feedback voltage of the transfer
+roller is insufficient.
+ Defective high voltage supply
+board
+ Loose connection of the PCU
+ Incorrect installation of the
+transfer unit or the separation
+unit
+ Defective transfer roller
+Main motor error
+500 B
+The main motor does not reach its
+operation speed within 0.7 second.
+Or, the main motor remains out of its
+operation speed for 0.7 second after
+reaching the operation speed.
+ Overload
+ Defective main motor
+Fusing thermistor open error
+541 A The fusing temperature remains
+lower than the specified temperature
+by 20 degrees Celsius.
+ Defective thermistor
+ Incorrect installation of the
+thermistor
+ Defective power supply unit
+ Loose connectors 
+SC Tables (Basic: D067/D072)
+D067/D068/D069/D072 3-42 SM Appendix
+No.
+Definition Symptom Possible Cause
+Fusing temperature warm-up error
+542 A
+The fusing temperature rises 7
+degrees or less in two seconds; and
+this continues 5 times consecutively.
+Or, the fusing temperature is not
+detected within 25 or 35 seconds.
+ Defective thermistor
+ Incorrect installation of the
+thermistor
+ Defective fusing lamp
+ Defective power supply unit
+Fusing overheat error 1
+543 A The fusing temperature detected by
+the thermistor is 230°C or higher for
+one second.
+ Defective thermistor
+ Defective power supply unit
+Fusing overheat error 2
+544 A The fusing temperature detected by
+the monitor circuit is 250°C or higher
+for one second.
+ Defective thermistor
+ Defective power supply unit
+Fusing lamp overheat error
+545 A After the fusing temperature reaches
+the target, the fusing lamp remains
+on for 12 seconds.
+ Defective thermistor
+ Incorrect installation of the
+thermistor
+ Defective power supply unit
+Unstable fusing temperature
+546 A
+While the fusing lamp is on, the
+fusing temperature varies 50°C or
+more within one second; and this
+occurs two consecutive times.
+ Defective thermistor
+ Incorrect installation of the
+thermistor
+ Defective power supply unit 
+SC Tables (Basic: D067/D072)
+SM Appendix 3-43 D067/D068/D069/D072
+Appendix:
+Service Call
+Conditions
+No.
+Definition Symptom Possible Cause
+Zero cross signal malfunction
+547 B
+The zero cross signal is not detected
+within five seconds after the main
+power switch is turned on. Or, the
+zero cross signal is not detected
+within one second after operation
+begins.
+ Defective power supply unit
+ Defective BICU
+Consecutive fusing jam
+559 A
+The paper jam counter for the fusing
+unit reaches 3 times. The paper jam
+counter is cleared if the paper is fed
+correctly.
+This SC is activated only when
+SP1159-001 is set to "1" (default
+"0").
+ Paper jam in the fusing unit.
+Exhaust fan motor error
+590 B The exhaust fan motor is locked for
+five seconds.
+ Loose connection of the exhaust
+fan motor
+ Overload
+Accounting error 1
+632 C An error occurs during
+communication with the MF
+accounting device.
+ Defective accounting device
+ Loose connection
+Accounting RAM error
+634 C An error occurs in the backup RAM
+for the MF accounting device.  Defective accounting device 
+SC Tables (Basic: D067/D072)
+D067/D068/D069/D072 3-44 SM Appendix
+No.
+Definition Symptom Possible Cause
+Accounting battery error
+635 C An error occurs in the battery of the
+MF accounting device.  Defective accounting device
+Printer board communication error
+692 C
+ BICU does not get a signal from
+the printer board for 1.5 seconds
+or more.
+ BICU gets a break-signal after
+completing the communication
+with the printer board and does
+not get a signal from the printer
+board for 10 seconds or more.
+ Defective communication
+between BICU and printer board
+Scanner board communication error
+694 C
+ BICU does not get a signal from
+the scanner board for 1.5
+seconds or more.
+ BICU gets a break-signal after
+completing the communication
+with the scanner board and
+does not get a signal from the
+scanner board for 10 seconds or
+more.
+ Defective communication
+between BICU and scanner
+board
+ADF gate error 1
+760 B The ADF sends the FGATE signal
+before it is requested to scan
+originals.
+ Defective ADF board
+ Defective input/output board
+ Loose connection 
+SC Tables (Basic: D067/D072)
+SM Appendix 3-45 D067/D068/D069/D072
+Appendix:
+Service Call
+Conditions
+No.
+Definition Symptom Possible Cause
+ADF gate abnormal 2
+761 B The ADF does not send the FGATE
+signal within 30 seconds after the
+ADF starts scanning.
+ Defective ADF connector
+ Defective SBU board
+ADF gate abnormal 3
+762 B
+The ADF continues to send the
+FGATE signal for more than 60
+seconds after the ADF starts
+scanning.
+ Defective ADF connector
+ Defective SBU board
+Mechanical total counter error
+901 B The polling module does not detect
+the mechanical total counter.
+ Defective mechanical total
+counter
+ Defective BICU
+ Loose connection
+Engine total counter error
+903 B The checksum of the total counter is
+not correct.  Defective NVRAM on the BICU
+Memory error
+928 B
+An error occurs during the memory
+check conducted when the main
+power switch is turned on or when
+the copier is recovering from the
+energy saver mode.
+ Defective memory
+ Defective BICU
+ Loose connection between the
+BICU and the memory 
+SC Tables (Basic: D067/D072)
+D067/D068/D069/D072 3-46 SM Appendix
+No.
+Definition Symptom Possible Cause
+IMAC hardware error
+929 B A memory control job is not
+completed within a certain period.
+ Defective IMAC
+ Defective BICU
+ Loose connection
+NVRAM error
+981 B An error occurs during engine
+NVRAM check.
+ Defective NVRAM
+ Loose connection between the
+BICU and the NVRAM
+ Incorrect installation of the
+NVRAM
+ Defective BICU
+Localization error
+982 B The localization information in the
+nonvolatile ROM and in the NVRAM
+is different ( SP5-807-001).
+ Localization setting not specified
+(The main power switch is
+turned on for the first time after
+the NVRAM is replaced.)
+ Incorrect localization setting
+ Defective NVRAM 
